@@ -1,0 +1,222 @@
+<! doctype html>
+
+<html lang="pt-br">
+      <head>
+      <title> GP Convites </title>
+      <meta charset="utf-8">
+      <meta nome="author" content="victor">
+      <meta nome="description" content="Paylast">
+    <!--  <link  rel="stylesheet"  href="style.css"> -->
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <style>
+
+        nav{
+            display: grid;
+            justify-content: center;
+        }
+
+        h1{
+            width: 200px;
+            height: 200px;
+            background-image: url(./logo.jpg);
+            background-position: center;
+            background-size: contain;
+            
+        }
+        
+        li{
+            list-style-type: none;
+            padding: 20px;
+            background-color: #082a5d;
+            display: inline-block;
+            border-radius: 35px;
+            width: 160px;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            margin-right: 20px;
+        }
+
+        .reac{
+            height: 600px;    
+        }
+
+        .n1{
+            
+            justify-content: center;
+            
+        }
+          .n2{
+            background-color: aqua;
+        }
+
+        .n3{
+            background-color: black;
+        }
+
+        .n4{
+            background-color: blue;
+        }
+
+        .n5{
+            background-color: orange;
+        }
+
+        .n6{
+            background-color: red;
+        }
+
+        .n7{
+            background-color: gray;
+        }
+
+        .n8{
+            background-color: green;
+        }
+
+        .n9{
+            background-color: #ccc;
+        }
+
+        #container{
+            grid-column-gap: 10px;        
+            grid-row-gap: 10px;
+            margin: 100px 0;
+        }
+
+        .env{
+            
+        }
+
+
+        .e1{
+            border-radius: 15px;
+            background-image: url(./envelope_2.jpg);
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 50%;
+            float: left;
+        }
+
+        .e2{
+            width: 45%;
+            float: left;
+        }
+
+        .footer{
+            height: 550px;
+            background-color: #082a5d;
+        }
+
+        .f0{
+            width: 50%; 
+            height: 250px;
+            float: left;
+        }
+
+        .f01{ 
+            width: 50%; 
+            height: 250px;
+            float: left;
+        }
+
+        .f01 :first-child{
+            display: flex;
+            color: white;
+            font-size: 50px;
+            justify-content: center;
+        }
+
+        .cont_footer{
+        }
+
+        .div_footer{
+        }
+
+        .f1{
+            width: 33%;
+            display: inline-block;
+            height: 300px;
+            text-align: center;
+            color: white;
+        }
+
+        .f2{
+            width: 33%;
+            display: inline-block;
+            height: 300px;
+            text-align: center;
+            color: white;
+        }
+
+        .f3{
+            width: 33%;
+            display: inline-block;
+            height: 300px;
+            text-align: center;
+            color: white;
+        }
+
+      </style>
+   </head>
+   <body>
+
+        <nav>
+            <a href="index.html"><h1></h1></a>
+            <il>
+                <li>cartoes</li>
+                <li>envelopes</li>
+                <li>convites</li>
+            </il>
+        </nav>
+      
+        <div id="container">
+            <div class="reac n1">
+                <section class="env e1"></section>
+                <section class="env e2">
+                    <h2>Titulo do envelope</h2>
+                    <p>este envelope que está ao lado esquerdo</p>
+                </section>
+            </div>
+            <div class="reac n2">2</div>
+            <div class="reac n3">3</div>
+            <div class="reac n4">4</div>
+            <div class="reac n5">5</div>
+            <div class="reac n6">6</div>
+            <div class="reac n7">7</div>
+            <div class="reac n8">8</div>
+            <div class="reac n9">9</div>
+        </div>
+     
+       
+       <div class="footer">
+            <div class="div_footer f0"></div> 
+            <div class="div_footer f01">
+                <h2>frutas para alimentar quem tem fome escreve qualquer coisa para preencher</h2>
+            </div>
+          <div class="cont_footer">
+                <div class="div_footer f1">
+                    <h3>Titulo primeiro</h3>
+                    <p>paragrafo primeiro</p>
+                    <p>paragrafo segundo</p>
+                    <p>paragrafo terceiro</p>
+                </div>
+                <div class="div_footer f2">
+                    <h3>Titulo segundo</h3>
+                    <p>paragrafo primeiro</p>
+                    <p>paragrafo segundo</p>
+                    <p>paragrafo terceiro</p>
+                </div>
+                <div class="div_footer f3">
+                    <h3>Titulo terceiro</h3>
+                    <p>paragrafo primeiro</p>
+                    <p>paragrafo segundo</p>
+                    <p>paragrafo terceiro</p>
+                </div>
+           </div>
+       </div>
+       
+        <script src="script.js" ></script>
+   </body>
+</html>

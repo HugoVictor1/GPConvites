@@ -1,0 +1,203 @@
+<! doctype html>
+
+<html lang="pt-br">
+      <head>
+      <title> GP Convites </title>
+      <meta charset="utf-8">
+      <meta nome="author" content="victor">
+      <meta nome="description" content="Paylast">
+    <!--  <link  rel="stylesheet"  href="style.css"> -->
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <style>
+
+        nav{
+            display: grid;
+            justify-content: center;
+        }
+
+        h1{
+            
+            width: 200px;
+            height: 200px;
+            background-image: url(./logo.jpg);
+            background-position: center;
+            background-size: contain;
+            
+        }
+
+        
+        li{
+            list-style-type: none;
+            padding: 20px;
+            background-color: #082a5d;
+            display: inline-block;
+            border-radius: 35px;
+            width: 160px;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            margin-right: 20px;
+        
+        }
+
+
+        .reac{
+            width: 350px;
+            height: 350px;    
+        }
+
+        .n1{
+            background-color: aliceblue;
+            
+        }
+          .n2{
+            background-color: aqua;
+        }
+
+        .n3{
+            background-color: black;
+        }
+
+        .n4{
+            background-color: blue;
+        }
+
+        .n5{
+            background-color: orange;
+        }
+
+        .n6{
+            background-color: red;
+        }
+
+        .n7{
+            background-color: gray;
+        }
+
+        .n8{
+            background-color: green;
+        }
+
+        .n9{
+            background-color: #ccc;
+        }
+
+        #container{
+            display: grid;
+            justify-content: center;
+            grid-column-gap: 10px;        
+            grid-row-gap: 10px;
+            grid-template-columns: auto auto auto;
+            margin: 100px 0;
+        }
+
+        .footer{
+            height: 550px;
+            background-color: #082a5d;
+        }
+
+        .f0{
+            width: 50%; 
+            height: 250px;
+            float: left;
+        }
+
+        .f01{ 
+            width: 50%; 
+            height: 250px;
+            float: left;
+        }
+
+        .f01 :first-child{
+            display: flex;
+            color: white;
+            font-size: 50px;
+            justify-content: center;
+        }
+
+        .cont_footer{
+        }
+
+        .div_footer{
+        }
+
+        .f1{
+            width: 33%;
+            display: inline-block;
+            height: 300px;
+            text-align: center;
+            color: white;
+        }
+
+        .f2{
+            width: 33%;
+            display: inline-block;
+            height: 300px;
+            text-align: center;
+            color: white;
+        }
+
+        .f3{
+            width: 33%;
+            display: inline-block;
+            height: 300px;
+            text-align: center;
+            color: white;
+        }
+
+      </style>
+   </head>
+   <body>
+
+        <nav>
+            <a href="index.html"><h1></h1></a>
+            <il>
+                <li>cartoes</li>
+                <li>envelopes</li>
+                <li>convites</li>
+            </il>
+        </nav>
+      
+        <div id="container">
+            <div class="reac n1"></div>
+            <div class="reac n2"></div>
+            <div class="reac n3"></div>
+            <div class="reac n4"></div>
+            <div class="reac n5"></div>
+            <div class="reac n6"></div>
+            <div class="reac n7"></div>
+            <div class="reac n8"></div>
+            <div class="reac n9"></div>
+        </div>
+     
+       
+       <div class="footer">
+            <div class="div_footer f0"></div> 
+            <div class="div_footer f01">
+                <h2>frutas para alimentar quem tem fome escreve qualquer coisa para preencher</h2>
+            </div>
+          <div class="cont_footer">
+                <div class="div_footer f1">
+                    <h3>Titulo primeiro</h3>
+                    <p>paragrafo primeiro</p>
+                    <p>paragrafo segundo</p>
+                    <p>paragrafo terceiro</p>
+                </div>
+                <div class="div_footer f2">
+                    <h3>Titulo segundo</h3>
+                    <p>paragrafo primeiro</p>
+                    <p>paragrafo segundo</p>
+                    <p>paragrafo terceiro</p>
+                </div>
+                <div class="div_footer f3">
+                    <h3>Titulo terceiro</h3>
+                    <p>paragrafo primeiro</p>
+                    <p>paragrafo segundo</p>
+                    <p>paragrafo terceiro</p>
+                </div>
+           </div>
+       </div>
+       
+        <script src="script.js" ></script>
+   </body>
+</html>
