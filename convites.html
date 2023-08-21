@@ -15,6 +15,12 @@
             justify-content: center;
         }
 
+        li a{
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+        }
+
         h1{
             width: 200px;
             height: 200px;
@@ -42,19 +48,23 @@
         }
 
         .n1{
-            
-            justify-content: center;
+            background-image: url(./1.png);
+            background-size: contain;
             
         }
           .n2{
-            background-color: aqua;
+            background-image: url(./convite_f.png);
+            background-size: contain;
+            margin-top: 30px;
         }
 
         .n3{
-            background-color: black;
+            background-image: url(./convite_f3.png);
+            background-size: contain;
+            margin-top: 30px;
         }
 
-        .n4{
+        /*.n4{
             background-color: blue;
         }
 
@@ -76,7 +86,7 @@
 
         .n9{
             background-color: #ccc;
-        }
+        }*/
 
         #container{
             grid-column-gap: 10px;        
@@ -90,19 +100,105 @@
 
 
         .e1{
-            border-radius: 15px;
-            background-image: url(./envelope_2.jpg);
+            width: 49%;
             height: 100%;
+            display: inline-block;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+
+        .img_1{
             background-size: contain;
-            background-repeat: no-repeat;
-            width: 50%;
-            float: left;
+            height: 100%;
+            border: 1px solid #082a5d;
+           
         }
 
         .e2{
-            width: 45%;
-            float: left;
+            width: 49%;
+            height: 100%;
+            float: right;
+            padding: 30px;
+            box-sizing: border-box;
+            display: grid;  // verificar se vai ficar assim ou sem centralizar no meio
+            align-items: center;
+            
+            
         }
+
+        .e2, .e3, .e6, p{
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+
+        .e4{
+            width: 49%;
+            height: 100%;
+            float: right;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .img_2{
+            background-size: contain;
+            height: 100%;
+            border: 1px solid #082a5d;
+        }
+
+        .e3{
+            width: 49%;
+            height: 100%;
+            display: inline-block;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+
+
+
+
+        .e5{
+            width: 49%;
+            height: 100%;
+            display: inline-block;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+
+        .img_3{
+            background-size: contain;
+            height: 100%;
+            border: 1px solid #082a5d;
+           
+        }
+
+        .e6{
+            width: 49%;
+            height: 100%;
+            float: right;
+            padding: 30px;
+            box-sizing: border-box;
+            display: grid;  // verificar se vai ficar assim ou sem centralizar no meio
+            align-items: center;
+            
+            
+        }
+
+        .e6 h2{
+            color: #082a5d;
+            
+            
+
+        }
+
+
+
+
+
+
+
 
         .footer{
             height: 550px;
@@ -164,29 +260,53 @@
 
         <nav>
             <a href="index.html"><h1></h1></a>
-            <il>
-                <li>cartoes</li>
-                <li>envelopes</li>
-                <li>convites</li>
-            </il>
+            <ul>
+            
+                <a href=""><li>cartoes</li></a>
+                
+                
+                <a href=""><li>envelopes</li></a>
+                
+                
+                <a href="galeria.html"><li>Galerias</li></a>
+                
+            </ul>
         </nav>
       
         <div id="container">
             <div class="reac n1">
-                <section class="env e1"></section>
+                <section class="env e1">
+                    <img class="img_1" src="./2.png">
+                </section>
                 <section class="env e2">
-                    <h2>Titulo do envelope</h2>
-                    <p>este envelope que está ao lado esquerdo</p>
+                    <h2>Casamento</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                 </section>
             </div>
-            <div class="reac n2">2</div>
-            <div class="reac n3">3</div>
-            <div class="reac n4">4</div>
+            <div class="reac n2">
+                <section class="env e3">
+                    <h2>Aniversário</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p.>
+                </section>
+                <section class="env e4">
+                    <img class="img_2" src="./convite_02.png">
+                </section>
+            </div>
+            <div class="reac n3">
+                <section class="env e5">
+                    <img class="img_3" src="./convite_3.png">
+                </section>
+                <section class="env e6">
+                    <h2>Casamento</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </section>
+            </div>
+          <!--  <div class="reac n4">4</div>
             <div class="reac n5">5</div>
             <div class="reac n6">6</div>
             <div class="reac n7">7</div>
             <div class="reac n8">8</div>
-            <div class="reac n9">9</div>
+            <div class="reac n9">9</div> -->
         </div>
      
        
