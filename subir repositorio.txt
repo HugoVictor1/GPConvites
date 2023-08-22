@@ -1,0 +1,44 @@
+Primeiro commit 
+
+git ini 
+
+git add .
+
+git commit -m "first commit" 
+
+git remote add origin https://github.com/HugoVictor1/GPConvites.git
+
+git push -u origin master
+
+
+segundo commit
+
+git ini 
+
+git add .
+
+git commit -m "segundo commit"
+
+git push -u origin master
+
+home 
+
+convites | cartoes | envelopes | galeria 
+
+convites 
+
+cartoes | envelopes | galeria 
+
+galeria 
+
+convites | envelopes | cartoes 
+
+envelopes 
+
+convites | cartoes | galeria 
+
+cartoes 
+
+Convites | envelopes | galeria 
+
+
