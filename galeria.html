@@ -25,8 +25,8 @@
 
         h1{
             
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             background-image: url(./logo.jpg);
             background-position: center;
             background-size: contain;
@@ -59,15 +59,20 @@
         }
 
         .n1{
-            background-color: aliceblue;
-            
+            background-image: url(./convite_02.png);
+            background-size: cover;
+            background-position: center;
         }
         .n2{
-            background-color: aqua;
+            background-image: url(./convite_3.png);
+            background-size: cover;
+            background-position: center;
         }
 
         .n3{
-            background-color: black;
+            background-image: url(./1.jpg);
+            background-size: cover;
+            background-position: center;
         }
 
         .n4{
@@ -121,6 +126,7 @@
             width: 50%; 
             height: 250px;
             float: left;
+
         }
 
         .f01 :first-child{
@@ -128,6 +134,14 @@
             color: white;
             font-size: 30px;
             justify-content: center;
+        }
+
+        h3{
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 20px;
         }
 
         .cont_footer{
@@ -162,13 +176,20 @@
 
 
         @media only screen and (max-width: 1000px){
+            li{
+            padding: 20px;
+            border-radius: 35px;
+            width: 200px;
+            font-size: 30px;   
+        }
+
+        .reac{
+            width: 410px;
+            height: 410px;    
+        }
+
             #container{
-            display: grid;
-            justify-content: center;
-            grid-column-gap: 10px;        
-            grid-row-gap: 10px;
             grid-template-columns: auto auto;
-            margin: 100px 0;
         }
 
         .f1{
@@ -196,6 +217,19 @@
 
         .footer{
             height: 800px;
+        }
+
+        .f01 h2{
+            margin-right: 20px;
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 25px;
+        }
+
+        h3{
+            font-size: 30px;
         }
         }
         
